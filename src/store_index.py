@@ -2,7 +2,7 @@ from src.helper_ import load_pdf,recursive_text_split,download_hugging_face_embe
 from langchain_chroma import Chroma
 import os
 
-Hypertension_document_pdf=load_pdf("Hypertension_data/")
+Hypertension_document_pdf=load_pdf("Nutritional_Notes/")
 
 Hpertension_doc_C=clean_whitespace(listToString(Hypertension_document_pdf))
 
